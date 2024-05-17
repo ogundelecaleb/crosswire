@@ -36,7 +36,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="bg-[#3F3F3F] pt-[32px] px-[12px] pb-[32px]  ">
+    <div id="contact" className="bg-[#3F3F3F] pt-[32px] px-[12px] pb-[32px]  ">
       <h2 className="text-[24px] md:text-[42px] xl:text-[70px] md:pl-5 text-[#141414] font-bold text-center md:text-left mb-1">
         Discuss Your
       </h2>

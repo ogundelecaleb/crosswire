@@ -25,7 +25,7 @@ const WhatWeDo = () => {
             {" "}
             Design & Development Excellence
           </h3>
-          <p className="text-sm mt-4 text-[#a2a2a2]">
+          <p className="text-sm mt-4 text-[#a2a2a2] text-justify">
             Transform your ideas into reality with our expert product design and
             UI/UX bootcamps. Elevate your online presence with our seamless
             website and mobile app development services
@@ -40,7 +40,7 @@ const WhatWeDo = () => {
             
             Security Solutions
           </h3>
-          <p className="text-sm mt-4 text-[#a2a2a2]">
+          <p className="text-sm mt-4 text-[#a2a2a2] text-justify">
             Safeguard your digital assets with confidence. Our information
             /Cyber security governance, risk, and compliance consulting ensure
             meticulous implementation, audit, and certification to industry
@@ -55,7 +55,7 @@ const WhatWeDo = () => {
             {" "}
             Empowerment Through Education{" "}
           </h3>
-          <p className="text-sm mt-4 text-[#a2a2a2]">
+          <p className="text-sm mt-4 text-[#a2a2a2] text-justify">
             Equip your team with the knowledge and skills they need to defend
             against evolving threats. Our cybersecurity awareness training
             enlightens and empowers, fostering a culture of vigilance within
@@ -67,10 +67,9 @@ const WhatWeDo = () => {
             <img src="/icon4.png" alt="icon" className="w-[50px] h-[50px] " />
           </div>
           <h3 className="text-white text-[20px] md:text-[24px]  md:text-left  text-center ">
-            
             Policy Development & Compliance
           </h3>
-          <p className="text-sm mt-4 text-[#a2a2a2]">
+          <p className="text-sm mt-4 text-[#a2a2a2] text-justify">
             Navigate regulatory complexities with ease. We offer cybersecurity
             policy development services and guide you through GDPR and NDPA
             compliance, ensuring your data protection measures meet and exceed

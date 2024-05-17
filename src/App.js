@@ -5,6 +5,7 @@ import WhatWeDo from "./component/WhatWeDo";
 import ContactUs from "./component/ContactUs";
 import Footer from "./component/Footer";
 import CountUp from "react-countup";
+import Navbar from "./component/Navbar";
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
             className="text-[36px] md:text-[64px] xl:text-[90px] text-[#37B34A] font-medium w-[30%] text-center animate__animated animate__bounce animate__faster"
             start={0}
             end={100}
-            duration={5}
+            duration={3}
             separator=" "
             // decimals={4}
             decimal=","
@@ -36,12 +37,13 @@ function App() {
   };
   return (
     <div className="">
-      {/* <Navbar/> */}
+      
 
       {isLoading ? (
         <LoadPage />
       ) : (
         <>
+        <Navbar/>
           <Hero />
           <WhatWeDo />
           <ContactUs />

@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="bg-[#141313] py-[30px] md:py-[36px] px-[16px] sm:px-[20px] md:px-[40px] lg:px-[64px] xl:px-[72px] shadow-lg">
+    <div className="bg-[#141313] sticky top-0 w-full z-20 py-[30px] md:py-[36px] px-[16px] sm:px-[20px] md:px-[40px] lg:px-[64px] xl:px-[72px] shadow-lg">
       <div className="flex justify-center md:justify-between">
        
         <img
