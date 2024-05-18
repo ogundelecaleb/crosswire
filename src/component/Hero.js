@@ -17,7 +17,7 @@ const Hero = () => {
         /> */}
         {/* <Navbar /> */}
         <ScrollAnimation animateIn="fadeIn">
-          <p className="text-[#3cb54e]  animate__animated animate__bounce animate__slow text-sm md:text-[16px] lg:text-[20px] text-center pt-[280px] md:pt-[250px] lg:pt-[300px]">
+          <p className="text-[#3cb54e] max-w-[250px]  sm:max-w-full mx-auto animate__animated animate__bounce animate__slow text-sm md:text-[16px] lg:text-[20px] text-center pt-[280px] md:pt-[250px] lg:pt-[300px]">
             Crosswirex where Innovation Meets Security
           </p>
         </ScrollAnimation>
@@ -47,9 +47,11 @@ const Hero = () => {
         </div>
       </div> */}
         <ScrollAnimation animateIn="fadeInUp" duration={3}>
-          <button className="text-white  md:hidden mx-auto text-base bg-[#3AB44D] mt-[30px]  font-bold rounded-lg py-[17px] px-[18px] max-w-[286px]  flex gap-3 items-center">
-            Discuss your project with us
-          </button>
+          <a href="#contact">
+            <button className="text-white  md:hidden mx-auto text-base bg-[#3AB44D] mt-[30px]  font-bold rounded-lg py-[17px] px-[18px] max-w-[286px]  flex gap-3 items-center">
+              Discuss your project with us
+            </button>
+          </a>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInUp" duration={3}>
