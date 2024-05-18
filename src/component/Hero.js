@@ -81,7 +81,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#000000] md:hidden bg-opacity-60 py-[32px] flex justify-around items-center  mx-auto">
+      <div className="bg-[#000000] md:hidden opacity-60 py-[32px] flex justify-around items-center  mx-auto">
         <div>
           <img src="/logo1.png" alt="" className="h-[17px] w-[100px]" />
         </div>
