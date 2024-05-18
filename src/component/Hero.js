@@ -1,13 +1,15 @@
 import React from "react";
 import Navbar from "./Navbar";
 import ScrollAnimation from "react-animate-on-scroll";
+import { FaArrowRight } from "react-icons/fa";
+
 
 const Hero = () => {
   return (
     <>
       <div
         className="bg-[url(../public/robothandmobile.png)]   md:bg-[url(../public/robothand.png)]  
-    bg-no-repeat h-[778px]  md:h-[850px]   lg:h-[963px] bg-[#141414] bg-opacity-80 bg-cover  "
+    bg-no-repeat h-[778px]  md:h-[850px]   lg:h-[963px] bg-[#141414]  bg-cover  "
       >
         {/* <img
           src="./robothand.png"
@@ -48,9 +50,11 @@ const Hero = () => {
       </div> */}
         <ScrollAnimation animateIn="fadeInUp" duration={3}>
           <a href="#contact">
-            <button className="text-white  md:hidden mx-auto text-base bg-[#3AB44D] mt-[30px]  font-bold rounded-lg py-[17px] px-[18px] max-w-[286px]  flex gap-3 items-center">
-              Discuss your project with us
+            <button className="text-white  md:hidden mx-auto text-sm bg-[#3AB44D] mt-[30px]  font-bold rounded-lg py-[17px] px-[18px] max-w-[286px]  flex gap-3 items-center">
+              <p>Discuss your project with us </p> <FaArrowRight />
             </button>
+          
+
           </a>
         </ScrollAnimation>
 
@@ -62,7 +66,7 @@ const Hero = () => {
           </a>
         </ScrollAnimation>
 
-        <div className="hidden bg-[#000000] bg-opacity-60 py-[32px] rounded-lg md:flex justify-around items-center mt-[140px] max-w-[1025px] mx-auto">
+        <div className="hidden bg-[#000000] opacity-60 py-[32px] rounded-lg md:flex justify-around items-center mt-[140px] max-w-[1025px] mx-auto">
           <div>
             <img src="/logo1.png" alt="" className="" />
           </div>
