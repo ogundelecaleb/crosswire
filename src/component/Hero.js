@@ -3,7 +3,6 @@ import Navbar from "./Navbar";
 import ScrollAnimation from "react-animate-on-scroll";
 import { FaArrowRight } from "react-icons/fa";
 
-
 const Hero = () => {
   return (
     <>
@@ -53,8 +52,6 @@ const Hero = () => {
             <button className="text-white  md:hidden mx-auto text-sm bg-[#3AB44D] mt-[30px]  font-bold rounded-lg py-[17px] px-[18px] max-w-[286px]  flex gap-3 items-center">
               <p>Discuss your project with us </p> <FaArrowRight />
             </button>
-          
-
           </a>
         </ScrollAnimation>
 
@@ -81,18 +78,20 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className="bg-[#000000] md:hidden opacity-60 py-[32px] flex justify-around items-center  mx-auto">
-        <div>
-          <img src="/logo1.png" alt="" className="h-[17px] w-[100px]" />
-        </div>
-        <div>
-          <img src="/logo2.png" alt="" className="h-[17px] w-[97px]" />
-        </div>
-        <div>
-          <img src="/logo3.png" alt="" className="h-[16px] w-[100px]" />
-        </div>
-        <div>
-          <img src="/logo4.png" alt="" className="h-[20px] w-[20px]" />
+      <div className="bg-[#141414]">
+        <div className="bg-[#000000] md:hidden opacity-60 py-[32px] flex justify-around items-center  mx-auto">
+          <div>
+            <img src="/logo1.png" alt="" className="h-[17px] w-[100px]" />
+          </div>
+          <div>
+            <img src="/logo2.png" alt="" className="h-[17px] w-[97px]" />
+          </div>
+          <div>
+            <img src="/logo3.png" alt="" className="h-[16px] w-[100px]" />
+          </div>
+          <div>
+            <img src="/logo4.png" alt="" className="h-[20px] w-[20px]" />
+          </div>
         </div>
       </div>
     </>
