@@ -27,7 +27,7 @@ const WhatWeDo = () => {
             <img src="/icon1.png" alt="icon" className="w-[30px] h-[30px] md:w-[50px] md:h-[50px] " />
           </div>
           <h3 className="text-white text-[20px] md:text-[24px] md:text-left  text-center ">
-            {" "}
+          
             Design & Development Excellence
           </h3>
           <p className="text-sm mt-4 text-[#a2a2a2] text-justify">
