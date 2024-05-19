@@ -22,9 +22,8 @@ const WhatWeDo = () => {
       <div className="flex flex-col justify-center md:grid grid-cols-2  gap-[32px] md:max-w-[744px]   lg:max-w-[944px] mx-auto mt-[31px] md:mt-[51px] lg:mt-[90px]">
 
         
-        <div className="py-[16px] px-[19px] bg-[#424141] bg-opacity-20 md:bg-transparent
-         rounded-lg md:max-w-[363px] mx-auto">
-          <div className="bg-[#424141] rounded-lg h-[66px] w-[46px] md:h-[46px] md:w-[66px] mx-auto  md:mx-0 flex justify-center items-center mb-4 md:mb-2 ">
+        <div className="py-[16px] px-[19px] bg-[#424141] bg-opacity-20 md:bg-transparent rounded-lg md:max-w-[363px] mx-auto">
+          <div className="bg-[#424141] rounded-lg h-[46px] w-[46px] md:h-[66px] md:w-[66px] mx-auto  md:mx-0 flex justify-center items-center mb-4 md:mb-2 ">
             <img src="/icon1.png" alt="icon" className="w-[30px] h-[30px] md:w-[50px] md:h-[50px] " />
           </div>
           <h3 className="text-white text-[20px] md:text-[24px] md:text-left  text-center ">
@@ -38,8 +37,8 @@ const WhatWeDo = () => {
           </p>
         </div>
 
-        <div className="bg-[#424141] rounded-lg h-[66px] w-[46px] md:h-[46px] md:w-[66px] mx-auto  md:mx-0 flex justify-center items-center mb-4 md:mb-2 ">
-          <div className="md:bg-[#424141] rounded-lg md:h-[66px] md:w-[66px] flex justify-center items-center ">
+        <div className="py-[16px] px-[19px] bg-[#424141] bg-opacity-20 md:bg-transparent rounded-lg md:max-w-[363px] mx-auto">
+        <div className="bg-[#424141] rounded-lg h-[46px] w-[46px] md:h-[66px] md:w-[66px] mx-auto  md:mx-0 flex justify-center items-center mb-4 md:mb-2 ">
             <img src="/icon2.png" alt="icon" className="w-[30px] h-[30px] md:w-[50px] md:h-[50px] " />
           </div>
           <h3 className="text-white text-[20px] md:text-[24px]  md:text-left  text-center ">
@@ -53,9 +52,9 @@ const WhatWeDo = () => {
             standards, including ISO 27001, 22301, 27017, and more.
           </p>
         </div>
-        <div className="bg-[#424141] rounded-lg h-[66px] w-[46px] md:h-[46px] md:w-[66px] mx-auto  md:mx-0 flex justify-center items-center mb-4 md:mb-2 ">
-          <div className="md:bg-[#424141] rounded-lg md:h-[66px] md:w-[66px] flex justify-center items-center ">
-            <img src="/icon3.png" alt="icon" className="w-[30px] h-[30px] md:w-[50px] md:h-[50px] "/>
+        <div className="py-[16px] px-[19px] bg-[#424141] bg-opacity-20 md:bg-transparent rounded-lg md:max-w-[363px] mx-auto">
+        <div className="bg-[#424141] rounded-lg h-[46px] w-[46px] md:h-[66px] md:w-[66px] mx-auto  md:mx-0 flex justify-center items-center mb-4 md:mb-2 ">
+            <img src="/icon3.png" alt="icon" className="w-[30px] h-[30px] md:w-[50px] md:h-[50px] "  />
           </div>
           <h3 className="text-white text-[20px] md:text-[24px]  md:text-left  text-center ">
             {" "}
@@ -68,9 +67,9 @@ const WhatWeDo = () => {
             your organization.
           </p>
         </div>
-        <div className="bg-[#424141] rounded-lg h-[66px] w-[46px] md:h-[46px] md:w-[66px] mx-auto  md:mx-0 flex justify-center items-center mb-4 md:mb-2 ">
-          <div className="md:bg-[#424141] rounded-lg md:h-[66px] md:w-[66px] flex justify-center items-center ">
-            <img src="/icon4.png" alt="icon" className="w-[30px] h-[30px] md:w-[50px] md:h-[50px] " />
+        <div className="py-[16px] px-[19px] bg-[#424141] bg-opacity-20 md:bg-transparent rounded-lg md:max-w-[363px] mx-auto">
+        <div className="bg-[#424141] rounded-lg h-[46px] w-[46px] md:h-[66px] md:w-[66px] mx-auto  md:mx-0 flex justify-center items-center mb-4 md:mb-2 ">
+            <img src="/icon4.png" alt="icon" className="w-[30px] h-[30px] md:w-[50px] md:h-[50px] "  />
           </div>
           <h3 className="text-white text-[20px] md:text-[24px]  md:text-left  text-center ">
             Policy Development & Compliance
